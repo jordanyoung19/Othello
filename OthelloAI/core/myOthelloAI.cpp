@@ -2,7 +2,7 @@
 #include <ics46/factory/DynamicFactory.hpp>
 #include <iostream>
 
-ICS46_DYNAMIC_FACTORY_REGISTER(OthelloAI, jordanby::warGamesAI, "War Games Othello AI (Required)");
+ICS46_DYNAMIC_FACTORY_REGISTER(OthelloAI, jordanby::warGamesAI, "War Games Othello AI");
 
 std::pair<int, int> jordanby::warGamesAI::chooseMove(const OthelloGameState& state)
 {
